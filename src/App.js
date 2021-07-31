@@ -7,7 +7,6 @@ import Contato from "./Contato";
 function App() {
   return (
     <BrowserRouter>
-      <div></div>
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/sobre" component={Sobre} />
