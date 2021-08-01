@@ -2,15 +2,14 @@ import React from "react";
 
 import Menu from "./Components/Menu";
 import Jumbo from "./Components/Jumbo";
-import Cartao from "./Components/Cartao";
 import Carrosel from "./Components/Carrosel";
-
+import Api from "./Components/Api";
 function Home() {
   return (
     <div>
       <Menu />
       <Carrosel />
-      <Cartao />
+      <Api />
       <Jumbo />
     </div>
   );
